@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>PEER WEBSITE</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+	</script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+
+	</script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
+
+	</script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js">
+
+	</script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js">
+
+	</script>
+	<script src="script.js">
+
+	</script>
+</head>
+
+<body>
+	<div>
+		<!--NAVIGATION-->
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<!--BRAND-->
+			<a class="navbar-brand nav-link scrollLink peer_link" href="#main-container"><img src="logo.png" id="logo" class="img-responsive"></a>
+
+            <!--HAMBURGER BUTTON-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--NAVIGATION LINKS-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scrollLink problem_link" href="#problem">The Problem</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link scrollLink statistics_link" href="#statistics">Statistics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link scrollLink voting_link" href="#voting_locations">Voting Locations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link scrollLink contact_link" href="#contact">Contact</a>
+                    </li>
+
+                    
+                </ul>
+            </nav>
+        </div>
+
+        <!--MAIN CONTENT START-->
+        <div class="container-fluid" id="main-container">
+            <img src="https://i.imgur.com/9GfTCI8.png" class="img-responsive" id="main-img">
+            <h2 class="centered" id="front-text">Welcome to PEER, a website fully dedicated into educating the Austin
+                population about voting!</h2>
+        </div>
+
+    </div>
+    </div>
+    <div class="container-fluid" id="row-container">
+        <div class="row" id="row1">
+            <img class="img-responsive col-lg-6 wow slideInLeft" id="austin-img"
+                src="https://www.redfin.com/blog/wp-content/uploads/2023/01/Austin-TX-Skyline.jpg">
+            <div id="description" class="col-lg-6 wow slideInRight">
+                <a id="problem"></a>
+                <h5><span class="display-4"><b>The Problem:</b></span><br><br>
+                    <span class="font-weight-light">
+                        Austin, Texas has a major problem: low voting turnout. The voter turnout in Austin is a lot
+                        lower than it should be, and this has to change as soon as possible.
+                    </span><br><br>
+                    <span class="display-4"><b>The Facts:</b></span><br><br>
+                    <span class="font-weight-light">
+                        Texas by itself is the state with the 5th lowest voter turnout in the entire USA. This affects
+                        the voting statistics in Austin as well.
+                    </span><br><br>
+                    <span class="font-weight-bold" id="overall-statistics"><b>Over the Last 30 years:</b></span>
+                    <br><br>
+                    <ul class="list-group">
+                        <li class="list-group-item">The highest voter turnout percentage in Austin was 73.68% in 1992
+                        </li>
+                        <li class="list-group-item">The lowest voter turnout percentage was 38.69% in 2014</li>
+                        <li class="list-group-item">The highest registered voters were in 2018, with 19,233 people.</li>
+                        <li class="list-group-item">The lowest registered voters were in 1990 with 9,949.</li>
+                        <li class="list-group-item">The highest voter turnout was in 2016, with 12,273 people.</li>
+                        <li class="list-group-item">The lowest voter turnout was in 1990, with 5,696 people.</li>
+                    </ul>
+                </h5>
+            </div>
+        </div>
+        <!--MAIN CONTENT END-->
+        <!--STATS START-->
+        <div class="stats-container">
+            <a id="statistics"></a>
+            <div>
+                <h1 class="section-title">THE STATS</h1>
+            </div>
+            <hr class="hr">
+            <div class="row" id="row2">
+                <div class="col-lg-6 wow slideInLeft">
+                    <p>This graph shows the negative trend of voter turnout from 1990-2018. As you can see from the
+                        graph, the highest voter turnout was in the 1990's, and it just kept on getting lower and lower.
+                        This shows the big problem Austin has with voting, because as the population keeps on rising,
+                        the voter turnout percentage decreases year after year.</p>
+                    <p>Even though the graph shows a final increase of 0.75% from 1990 to 2018, this is very misleading
+                        for many reasons. One of these reasons is that even thought the voter turnout percentage rose by
+                        0.75%, the population of Austin rose from less than 500,000 to more than 2,000,000 people. This
+                        means that there has been very less change from the 1990's to the time that we live in as of
+                        now. </p>
+                    <p>As citizens of the United States of America, it is our given responsibility to vote for our
+                        leaders and politicians. It was what this country was built upon: the idea of representation.
+                        These statistics show the harsh realities of our political time: <b>we aren't voting.</b> This
+                        has to change. Especially in a city such as Austin, Texas, which
+                        is the capital of the second largest state in the US. Our indifference towards voting can and
+                        will affect the future generations of our city, as the politicians in office make changes that
+                        will affect the day to day lives of us now and in the years to come. Voting is about the changes
+                        that YOU want to see happen to our society.</p>
+                </div>
+
+                <div class="col-lg-6 wow slideInRight">
+                    <canvas id="myChart" width="400px" height="200px"></canvas>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a id="voting_locations"></a>
+            <h1 class="section-title">VOTING LOCATIONS</h1>
+            <hr class="hr">
+            <iframe id="map"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1yamAjIQFHF53GyEytylQESKWNIHZkKHx"></iframe>
+        </div>
+        <div id="cta">
+            <div class="d-flex justify-content-center align-items-center">
+                <h3 class="col-lg-6 display-4">Ready to vote?</h3>
+                <a href="https://www.votetexas.gov/register-to-vote/" id="cta-button" target="_blank"
+                    class="btn hoverable" role="button">VOTE NOW</a>
+            </div>
+        </div>
+
+        </div>
+        <a id="contact"></a>
+        <div id="contact-us" class="row" id="contact-us">
+            <div class="text col-lg-6 display-3" id="contact-heading">Questions? Contact Us</div>
+
+            <div class="col-lg-6">
+                <form action="https://mailthis.to/ContactUs-PEER" method="POST"> 
+                    <span class="text-danger" id="nameError"></span>
+
+                    <div class="md-form">
+                        <input type="text" name="name" class="form-control" placeholder="Name">
+                        <span class="text-danger" id="nameError"></span>
+
+                    </div>
+                    <div class="md-form mb-0">
+                        <input type="text" name="text" type="email" class="form-control" placeholder="Email">
+                        <span class="text-danger" id="emailError"></span>
+                    </div>
+
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                            placeholder="Question"></textarea>
+                        <span class="text-danger" id="messageError"></span>
+
+                        <div class="md-form">
+                            <input type="submit" value="Submit" id="submit" class="hoverable">
+                            <input type="hidden" name="_after" value="thankyou.html">
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h1 class="footer-text">&copy TEAM PEER <span id="year"></span></h1>
+    </footer>
+</body>
+
+</html>
